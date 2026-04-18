@@ -341,15 +341,21 @@
 }
 
 /* CORREZIONE: RIMOSSO background-color: red che causava il quadrato rosso */
+/* ICONA HOME - NESSUN QUADRATO ROSSO */
 .wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
-  background: var(--darkplus-home-icon) center/cover no-repeat !important;
+  background: transparent !important;
+  background-color: #4D9FFF !important;
   min-width: 50px;
   min-height: 50px;
-  /* background-color: red;  ← RIMOSSO! */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg {
-  display: none;
+  display: block !important;
+  fill: #212121 !important;
 }
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
